@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S-8-Sprite-Maker</title>
+    <link rel = "stylesheet" href = "main.css">
+
+    <script src = "main.js" defer></script>
+</head>
+<body>
+    <div id = "pusher"></div>
+
+    <div id = "draw_area_total">
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+        <div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+            <div class = "draw_area" onclick = "changeColor(this);"></div>
+        </div>
+    </div>
+
+    <button style = "background-color: #000000;" onclick = "changeCurrentColorValue(0x000000);"></button>
+    <button style = "background-color: #f44336;" onclick = "changeCurrentColorValue(0xf44336);"></button>
+    <button style = "background-color: #9c27b0 ;" onclick = "changeCurrentColorValue(0x9c27b0);"></button>
+    <button style = "background-color: #673ab7;" onclick = "changeCurrentColorValue(0x673ab7);"></button>
+
+    <button style = "background-color:  #3f51b5;" onclick = "changeCurrentColorValue( 0x3f51b5 );"></button>
+    <button style = "background-color:  #2196f3;" onclick = "changeCurrentColorValue(  0x2196f3  );"></button>
+    <button style = "background-color:  #03a9f4  ;" onclick = "changeCurrentColorValue( 0x03a9f4 );"></button>
+    <button style = "background-color:  #00bcd4;" onclick = "changeCurrentColorValue( 0x00bcd4 );"></button>
+
+    <button style = "background-color:  #009688;" onclick = "changeCurrentColorValue( 0x009688 );"></button>
+    <button style = "background-color:  #4caf50  ;" onclick = "changeCurrentColorValue( 0x4caf50 );"></button>
+    <button style = "background-color:  #8bc34a  ;" onclick = "changeCurrentColorValue( 0x8bc34a );"></button>
+    <button style = "background-color:  #cddc39 ;" onclick = "changeCurrentColorValue( 0xcddc39 );"></button>
+
+    <button style = "background-color:  #ffeb3b;" onclick = "changeCurrentColorValue( 0xffeb3b );"></button>
+    <button style = "background-color:  #ffc107 ;" onclick = "changeCurrentColorValue( 0xffc107 );"></button>
+    <button style = "background-color:  #ff9800  ;" onclick = "changeCurrentColorValue( 0xff9800 );"></button>
+    <button style = "background-color: #FFFFFF;" onclick = "changeCurrentColorValue(0xFFFFFF);"></button>
+
+
+    <button id = "exportButton" onclick = "exportColors();">export</button>
+</body>
+</html>
+

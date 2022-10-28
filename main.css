@@ -1,0 +1,24 @@
+shtml, body { height: 100%; background-color: black;}
+
+.draw_area {
+  /*
+    width:padding-top = 1:1
+  */
+  width: 5%;
+  padding-top: 5%; 
+
+  border: 0.5px solid white;
+
+  display: inline-block;
+  border-spacing: 0px;
+  background-color: black;
+  margin: -3px;
+  padding-left: 0px;
+}
+
+button:not(#exportButton) {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 70px;
+}
